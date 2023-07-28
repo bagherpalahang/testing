@@ -7,6 +7,7 @@ broker_port = 1883
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code: " + str(rc))
     print('another line')
+    print('another line')
 
 client = mqtt.Client()
 client.on_connect = on_connect
