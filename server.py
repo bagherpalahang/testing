@@ -9,6 +9,7 @@ def on_connect(client, userdata, flags, rc):
 
 def on_message(client, userdata, message):
     print("Received message: " + str(message.payload.decode()))
+    print("new line for midiftion")
 
 client = mqtt.Client()
 
